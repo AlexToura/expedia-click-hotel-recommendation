@@ -20,6 +20,6 @@ tested on a validation data set using the Hits@k evaluation method.
   3. Then we further split this fraction in a 90/10 train validation data
   4. We split the clicks series into clicks/last click column (validation split)
   5. We prepare evaluation metric class (hits@K) and the model utils ( a function to find similar results of the click given)
-  6. We run the model with a combination of different parameters
+  6. We run the model with a combination of different parameters. The goal is to predict the last click using only the previous one
   7. Save the results in a txt file
   8. Plot the results and have a report file
